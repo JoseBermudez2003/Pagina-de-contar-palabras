@@ -1,0 +1,55 @@
+body{
+	background: black;
+	color: white
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+}
+
+.container h1{
+	text-align: center;
+}
+
+.botones{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 20px;
+}
+
+.botones button{
+	width: 30%;
+	height: 35px;
+	font-size: 20px;
+	margin-top: 10px;
+	
+}
+
+.reset{
+	background: red;
+	color: #FFFFFF;
+	border: solid 2px white;
+	border-radius: 20px;
+	padding: 5px;
+}
+.reset:hover{
+	background: #FF0000;
+	color: yellow
+}
+
+.contar{
+	border-radius: 20px;
+}
+
+.contar:hover{
+	color: green
+}
+
+.textArea{
+	font-size: 18px;
+	overflow: auto;
+}
